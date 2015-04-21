@@ -1,0 +1,9 @@
+---
+data: data.AddressData
+data_params:
+    source : sql
+    date : 2012-01-01
+    period_days : [-270, 90]
+    train_years : 2
+    test_years : 1
+model : sklearn.linear_model.LogisticRegression

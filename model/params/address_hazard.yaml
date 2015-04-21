@@ -1,0 +1,16 @@
+---
+data:
+    year : 2012
+    train_years : 3
+    test_years : 1
+    exclude : ['kid_.*', 'test_.*']
+models: 
+  - model : [sklearn.linear_model.LogisticRegression]
+  - model : [sklearn.ensemble.RandomForestClassifier]
+    n_estimators : [100]
+  - model : [sklearn.svm.SVC]
+    C : [1]
+    kernel : [linear]
+    class_weight : [!!null '']
+    probability : [True]
+    undersample : [8]

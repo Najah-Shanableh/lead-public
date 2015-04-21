@@ -1,0 +1,6 @@
+---
+data :
+  name : lead.model.data.LeadData
+  date_from : 2000-01-01
+  date_to : 2014-01-01
+  source : sql
